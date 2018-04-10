@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hw1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="市售手機大車拼！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qey-zg-J7M">
+                                <rect key="frame" x="64" y="96" width="262" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="apple1" translatesAutoresizingMaskIntoConstraints="NO" id="LzJ-eN-Fa7">
+                                <rect key="frame" x="27" y="157" width="138" height="125"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="htc1" translatesAutoresizingMaskIntoConstraints="NO" id="nPo-sg-jro">
+                                <rect key="frame" x="134" y="391" width="177" height="103"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="huawei1" translatesAutoresizingMaskIntoConstraints="NO" id="wzX-9h-Opu">
+                                <rect key="frame" x="206" y="191" width="120" height="117"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="oppo1" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Dg-mTy">
+                                <rect key="frame" x="27" y="502" width="150" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="samsung1" translatesAutoresizingMaskIntoConstraints="NO" id="wq3-ze-JNN">
+                                <rect key="frame" x="134" y="614" width="200" height="105"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="世界上最好的手機是？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gR-Ge-tNc">
+                                <rect key="frame" x="50" y="316" width="197" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVT-dc-sbn">
+                                <rect key="frame" x="189" y="352" width="137" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="馬上比較-&gt;"/>
+                                <connections>
+                                    <segue destination="8Jk-kT-KQX" kind="show" id="PfC-Hd-UTc"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="sony1" translatesAutoresizingMaskIntoConstraints="NO" id="xiO-1J-x9w">
+                                <rect key="frame" x="194" y="493" width="145" height="88"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2777" y="-1231"/>
+        </scene>
+        <!--各家手機廠牌-->
+        <scene sceneID="VSx-Iw-1AD">
+            <objects>
+                <tableViewController title="各家手機廠牌" id="TI7-94-Hl0" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vg0-S3-FNL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="x1M-EI-XxU">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="120" id="XMD-W2-Kkq">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XMD-W2-Kkq" id="Hjd-Ua-t0P">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9S-yI-2xF">
+                                                    <rect key="frame" x="200" y="11" width="139" height="78"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple1 2" translatesAutoresizingMaskIntoConstraints="NO" id="St4-2z-O4H">
+                                                    <rect key="frame" x="16" y="20" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HIt-hY-aCh" kind="push" id="nS1-3F-ASJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="120" id="eip-rA-j7W">
+                                        <rect key="frame" x="0.0" y="120" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eip-rA-j7W" id="6rF-fE-pcg">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Samsung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlK-Hb-gO3">
+                                                    <rect key="frame" x="200" y="11" width="169" height="78"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="samsung1 2" translatesAutoresizingMaskIntoConstraints="NO" id="oO1-xV-Kgv">
+                                                    <rect key="frame" x="16" y="20" width="114" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="i75-gZ-ncc" kind="push" id="a4d-fc-2FQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="120" id="ncc-be-22c">
+                                        <rect key="frame" x="0.0" y="240" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ncc-be-22c" id="w4b-Oq-QiA">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sony" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tL2-iL-2iY">
+                                                    <rect key="frame" x="200" y="11" width="139" height="78"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sony1" translatesAutoresizingMaskIntoConstraints="NO" id="zT8-cG-4Ik">
+                                                    <rect key="frame" x="16" y="20" width="120" height="63"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="aDm-Qa-5c0" kind="push" id="gY6-Mq-mEl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="120" id="Nv0-j4-QUs">
+                                        <rect key="frame" x="0.0" y="360" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nv0-j4-QUs" id="x7D-CX-zUT">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hTC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be7-2Q-Doy">
+                                                    <rect key="frame" x="200" y="11" width="139" height="78"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="htc1 2" translatesAutoresizingMaskIntoConstraints="NO" id="juJ-r7-ubP">
+                                                    <rect key="frame" x="16" y="20" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5ix-Se-IBs" kind="push" id="N3j-S7-3h9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="120" id="yPl-UL-ELL">
+                                        <rect key="frame" x="0.0" y="480" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yPl-UL-ELL" id="hrM-gF-Lt1">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OPPO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be1-Kf-x7u">
+                                                    <rect key="frame" x="200" y="11" width="139" height="78"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oppo1 2" translatesAutoresizingMaskIntoConstraints="NO" id="HEK-b1-qcD">
+                                                    <rect key="frame" x="16" y="20" width="129" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uWy-8E-1J2" kind="push" id="FlU-gC-UJG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="120" id="VjW-Ho-4GK">
+                                        <rect key="frame" x="0.0" y="600" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VjW-Ho-4GK" id="Qf2-a0-8qb">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Huawei" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHx-9S-qA4">
+                                                    <rect key="frame" x="200" y="11" width="139" height="78"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huawei1 2" translatesAutoresizingMaskIntoConstraints="NO" id="39n-Fr-Btc">
+                                                    <rect key="frame" x="16" y="20" width="62" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="kDn-Ci-ZkK" kind="push" id="A76-6K-etl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="TI7-94-Hl0" id="bqa-5h-KpP"/>
+                            <outlet property="delegate" destination="TI7-94-Hl0" id="qCP-s2-Xuf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="kYC-vJ-TZR"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZXb-YY-RGs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-214" y="-1231"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hUZ-lb-Emc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Jk-kT-KQX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mh0-pt-BCE">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TI7-94-Hl0" kind="relationship" relationship="rootViewController" id="Rp4-rj-7Tw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqQ-2S-5O4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1433" y="-1231"/>
+        </scene>
+        <!--Galaxy S9+-->
+        <scene sceneID="Wp9-Uk-GJu">
+            <objects>
+                <viewController title="Galaxy S9+" id="7LH-Lp-sLr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6wH-gD-cmr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s9+" translatesAutoresizingMaskIntoConstraints="NO" id="wpX-eh-QzG">
+                                <rect key="frame" x="0.0" y="104" width="375" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="DYL-r7-0K5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="aAF-vV-rQW"/>
+                    <navigationItem key="navigationItem" id="QwP-CC-cXB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QOS-qk-aHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="-1966"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ZT2-lQ-Jf0">
+            <objects>
+                <viewController id="Aib-rl-0ox" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Mt-NA-ixM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kw5-wn-15U">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">外型：直立
+螢幕尺寸：6.2 吋 2960 x 1440 pixel
+螢幕類型：S-AMOLED
+尺寸：158.1 x 73.8 x 8.5 (mm)
+重量：189 (g)
+防水防塵：IP68
+標準電池：3500 mAh (固定式)
+指紋辨識：有
+顏色：藍
+
+網路系統：GSM 四頻 / WCDMA 850 + 900 + 2100
+EDGE：有
+HSDPA：有
+LTE(4G)：LTE 700 + 900 + 1800 + FDD 2600 + TDD 2600
+雙卡雙待：有
+WiFi 無線網路：802.11ac
+藍牙：v5.0
+GPS：有
+USB：2.0
+NFC：有
+
+作業系統：Android 8.0
+CPU型號：Exynos 9810
+CPU類型：八核心
+RAM：6GB
+ROM：64GB
+記憶卡：microSD (最大400GB) ，與 SIM 卡共用卡槽
+
+影片格式：
+影片解析度：4K
+3.5mm 耳機孔：有
+獨立揚聲器：有
+立體雙喇叭：有
+A2DP：有
+FM 收音機：Ｘ
+
+主相機：1200萬畫素CMOS次相機：700萬畫素CMOS
+補光燈：有
+Xenon 閃光燈：X
+錄影解析度：4K
+拍照功能：雙主相機、雙 OIS 鏡頭、雙倍光學望遠
+標準鏡頭：f/1.5、f/2.4 雙光圈，77 度視野
+望遠鏡頭：f/2.4，45 度視野
+自拍鏡頭：f/1.7，80 度視野
+標準鏡頭雙光圈自動切換 / 手動切換 (專業模式)
+Super Speed Dual Pixel 影像技術 (12 張影像合成)
+超慢動作攝影 960FPS (HD 720p)
+陷阱快門功能 (自動偵測啟動超慢動作錄影)
+超滿動作攝影支援音樂編輯、GIF 製作
+AR 虛擬人偶 (預設 18 組主題，可自訂編輯)
+景深即時預覽</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Mzr-5o-LTv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="d9L-jU-YQk"/>
+                    <navigationItem key="navigationItem" id="n4g-62-v6N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CJp-MP-PSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="-1966.2561576354681"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="nvt-9r-g6z">
+            <objects>
+                <viewController id="Ql6-A4-Cxg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xt6-RU-g55">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NT 29,900起" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWH-Jv-faa">
+                                <rect key="frame" x="16" y="332" width="343" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="3Fg-t2-Q6M"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="4IA-7i-V6I"/>
+                    <navigationItem key="navigationItem" id="N9O-1l-5e8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WhG-Jz-Zga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="-1966"/>
+        </scene>
+        <!--HUAWEI mate10 Pro-->
+        <scene sceneID="qSP-qE-DeJ">
+            <objects>
+                <viewController title="HUAWEI mate10 Pro" id="m27-LN-Kw7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2gH-Y4-P2N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mate_10_pro" translatesAutoresizingMaskIntoConstraints="NO" id="Tvx-L3-WTI">
+                                <rect key="frame" x="-105" y="88" width="570" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="1nX-g4-ohJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FDg-nc-lkq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7G-MI-TOE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="4113.5467980295571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TWN-ua-C6C">
+            <objects>
+                <viewController id="n3z-Jn-sLT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cGV-Ho-qy5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8TR-tz-r2b">
+                                <rect key="frame" x="0.0" y="89" width="375" height="640"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">外型：直立
+螢幕尺寸：6 吋 2160 x 1080 pixel
+螢幕類型：AMOLED
+尺寸：154.2 x 74.5 x 7.9 (mm)
+重量：178 (g)
+防水防塵：IP67
+標準電池：4000 mAh (固定式)
+指紋辨識：有
+顏色：寶石藍/摩卡金/灰
+
+網路系統：GSM 四頻 / WCDMA 850 + 900 + 2100
+EDGE：有
+HSDPA：有
+LTE(4G)：LTE 700 + 900 + 1800 + FDD 2600 + TDD 2600
+雙卡雙待：有
+WiFi 無線網路：802.11ac
+藍牙：v4.2
+GPS：有
+USB：Ｘ
+NFC：X
+
+作業系統：Android 8.0
+CPU型號：KIRIN 970
+CPU類型：八核心
+RAM：6GB
+ROM：128GB
+記憶卡：X
+
+影片格式：
+影片解析度：4K
+3.5mm 耳機孔：X
+獨立揚聲器：有
+立體雙喇叭：Ｘ
+A2DP：有
+FM 收音機：Ｘ
+
+主相機：2000萬畫素CMOS
+次相機：800萬畫素CMOS
+補光燈：有
+Xenon 閃光燈：X
+錄影解析度：4K
+拍照功能：主相機：
+2000 單色 +1200 萬畫素 RGB 徠卡認證雙鏡頭
+雙鏡頭 f/1.6 大光圈
+雙 ISP 影像處理技術
+四合一混合式對焦 (PDAF+CAF+雷射+景深對焦)
+AI 人工智慧場景、智慧景深
+前鏡頭 f/2.0 光圈、FF 追蹤對焦</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Rws-hC-p8N"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Mg-Na-3PV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uw0-zE-bEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="4113.5467980295571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3wr-fn-aVL">
+            <objects>
+                <viewController id="Bq5-KX-BRU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fZz-TN-Ixh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NT 26,900起" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9j-8y-Tg5">
+                                <rect key="frame" x="16" y="332" width="343" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="jEd-CQ-qdb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Rq-z7-T3z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="giu-4f-qaH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="4114"/>
+        </scene>
+        <!--HTC U11+-->
+        <scene sceneID="vXj-g2-eRd">
+            <objects>
+                <viewController title="HTC U11+" id="6Gv-h6-NU7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EdH-S9-Ky0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="u11+" translatesAutoresizingMaskIntoConstraints="NO" id="MQn-Sd-KE0">
+                                <rect key="frame" x="0.0" y="102" width="375" height="608"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="WtS-Uz-oDg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jk7-vo-yHY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="duW-jK-cdt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="868"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TQ5-xa-yUl">
+            <objects>
+                <viewController id="Omi-Rb-jJm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OBc-Jy-QDr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="r11s+" translatesAutoresizingMaskIntoConstraints="NO" id="EDQ-lf-FLI">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="vkR-Lu-FNG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DcW-ZQ-vKh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R4w-K5-3EQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="2392.6108374384239"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jjY-ef-f26">
+            <objects>
+                <viewController id="zKH-Y3-XbX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eJd-W2-QVa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lc1-th-kA5">
+                                <rect key="frame" x="0.0" y="89" width="375" height="640"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">外型：直立
+螢幕尺寸：6.43 吋 2160 x 1080 pixel
+螢幕類型：AMOLED
+尺寸：164.8 x 80.2 x 7.3 (mm)
+重量：182 (g)
+防水防塵：無
+標準電池：4000 mAh (固定式)
+指紋辨識：有
+顏色：黑色/香檳金
+
+網路系統：GSM 四頻 / WCDMA 900 + 2100
+EDGE：有
+HSDPA：有
+LTE(4G)：LTE 700 + 900 + 1800 + FDD 2600 + TDD 2600
+雙卡雙待：有
+WiFi 無線網路：802.11ac
+藍牙：v4.2
+GPS：有
+USB：2.0
+NFC：X
+
+作業系統：Android 7.1
+CPU型號：Qualcomm Snapdragon 660 2.2GHz
+CPU類型：八核心
+RAM：6GB
+ROM：64GB
+記憶卡：microSD (最大256GB)
+
+影片格式：
+影片解析度：
+3.5mm 耳機孔：有
+獨立揚聲器：有
+立體雙喇叭：Ｘ
+A2DP：有
+FM 收音機：Ｘ
+
+主相機：1600萬畫素CMOS
+次相機：2000萬畫素CMOS
+補光燈：有
+Xenon 閃光燈：X
+錄影解析度：
+拍照功能：1600萬+2000萬像素雙攝主相機
+前置光圈f/2.0，後置光圈f/1.7+f/1.7
+前置5P鏡頭，後置6P鏡頭+ 6P鏡頭
+普通拍照、影片、人像模式、專業模式、延時攝影、全景</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="B2k-O4-Uxe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CD0-EN-GT7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vJx-YQ-hoe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="2392.6108374384239"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fjz-4t-0DX">
+            <objects>
+                <viewController id="uAa-6o-85r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Efz-P4-b9D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NT 17,990起" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FU-Vi-S0e">
+                                <rect key="frame" x="16" y="332" width="343" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="XnS-2L-gvK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BTe-RI-vVl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dn6-pr-Oo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="2393"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WRe-t8-lq9">
+            <objects>
+                <viewController id="uTG-ap-VSq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G1N-2u-9zc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jyi-Y2-ygR">
+                                <rect key="frame" x="0.0" y="89" width="375" height="640"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">外型：直立
+螢幕尺寸：6 吋 2880 x 1440 pixel
+螢幕類型：SLCD
+尺寸：158.5 x 74.9 x 8.5 (mm)
+重量：188 (g)
+防水防塵：IP68
+標準電池：3930 mAh (固定式)
+指紋辨識：有
+顏色：極鏡黑/炫藍銀/透視黑
+
+網路系統：GSM 四頻 / WCDMA 850 + 900 + 2100
+EDGE：有
+HSDPA：有
+LTE(4G)：LTE 700 + 900 + 1800 + FDD 2600 + TDD 2600
+雙卡雙待：有
+WiFi 無線網路：
+藍牙：有
+GPS：有
+USB：X
+NFC：有
+
+作業系統：Android 8.0
+CPU型號：Qualcomm Snapdragon 835 八核 2.45 Ghz
+CPU類型：八核心
+RAM：4GB
+ROM：64GB
+記憶卡：microSD
+
+影片格式：
+影片解析度：3gp、.mp4、.ts、webm、mkv
+3.5mm 耳機孔：Ｘ
+獨立揚聲器：有
+立體雙喇叭：Ｘ
+A2DP：有
+FM 收音機：Ｘ
+
+主相機：1200萬畫素CMOS
+次相機：800萬畫素N/A
+補光燈：有
+Xenon 閃光燈：X
+錄影解析度：4K
+拍照功能：主相機
+HTC UltraPixel 3，採用 1.4 m 畫素
+UltraSpeed 自動對焦
+BSI 感測器
+光學防手震 (OIS)
+ƒ/1.7 光圈
+雙 LED 閃光燈
+自拍計時器最長 10 秒
+臉部偵測
+Pro 手動模式，支援手動控制、32 秒長時間曝光和 RAW 格式
+HDR 強化
+高動態縮時攝影
+慢動作影片 (1080P@120 fps)
+4K 錄影，支援 3D Audio、高解析音效、聽覺焦點
+動態拍照
+前相機
+BSI 感測器
+ƒ/2.0 光圈
+瞬間美膚
+自動自拍
+聲控自拍
+自拍計時器最長 10 秒
+HDR 強化
+全景自拍
+Full HD 1080P 錄影</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="BIA-gP-H1s"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UVn-vn-fYq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="orB-Om-BVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="866.74876847290648"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cvw-NM-QGA">
+            <objects>
+                <viewController id="myN-zh-Oge" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sfi-t4-fhy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NT 19,900起" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wA-VR-Pde">
+                                <rect key="frame" x="16" y="332" width="343" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="pws-hr-zeJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="32o-ap-gjx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubH-l0-skC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="867"/>
+        </scene>
+        <!--iPhone X-->
+        <scene sceneID="DcP-75-KoY">
+            <objects>
+                <viewController title="iPhone X" id="xcu-uR-cCg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oGi-YJ-NEM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="iphonex" translatesAutoresizingMaskIntoConstraints="NO" id="BB2-iY-mmb">
+                                <rect key="frame" x="-171" y="55" width="700" height="700"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="67T-s2-mI8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9w7-6o-DSC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JKW-q0-fLO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="-3382"/>
+        </scene>
+        <!--詳細規格-->
+        <scene sceneID="xDS-zk-MKo">
+            <objects>
+                <viewController title="詳細規格" id="uov-tE-OEQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fgU-oX-jLV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OTL-AW-jBE">
+                                <rect key="frame" x="16" y="96" width="343" height="620"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">外型：直立
+螢幕尺寸：5.8 吋 2436 x 1125 pixel
+螢幕類型：OLED
+尺寸：143.6 x 70.9 x 7.7 (mm)
+重量：174 (g)
+防水防塵：IP67
+標準電池：2716 mAh (固定式)
+指紋辨識：X
+顏色：銀/黑
+
+網路系統：GSM 四頻 / WCDMA 850 + 900 + 2100
+EDGE：有
+HSDPA：有
+LTE(4G)：LTE 700 + 900 + 1800 + FDD 2600 + TDD 2600
+雙卡雙待：X
+WiFi 無線網路：802.11ac
+藍牙：v5.0
+GPS：有
+USB：Ｘ
+NFC：有
+
+作業系統：iOS
+CPU型號：64 位元 A11 + M11 協同處理器
+CPU類型：六核心
+RAM：3GB
+ROM：64GB
+記憶卡：無
+
+影片格式：HEVC、H.264、MPEG-4 Part 2、Motion JPEG
+影片解析度：4K 60FPS
+3.5mm 耳機孔：X
+獨立揚聲器：有
+立體雙喇叭：有
+A2DP：有
+FM 收音機：Ｘ
+
+主相機：1200萬畫素CMOS次相機：700萬畫素CMOS
+補光燈：有
+Xenon 閃光燈：X
+錄影解析度：4K 60FPS
+拍照功能：1200 萬畫素雙相機 (廣角+長焦)
+700 萬畫素前置 TrueDepth 相機
+OIS 光學防手震 (廣角+長焦)
+廣角鏡頭 f/1.8 光圈、長焦鏡頭 f/2.4 光圈
+人像模式、人線光線 (BETA)
+四合一 LED True Tone 閃光燈具備慢速同步
+全景模式 (6300 萬像素)
+藍寶石水晶玻璃保護鏡、背照式感光元件、混合式 IR 濾鏡
+Live Photo (影像穩定、廣色域)
+局部色調對映功能、身體與面孔偵測功能、曝光控制、雜點消除功能
+照片自動 HDR、自動影像穩定功能、連拍模式、計時模式
+4K 錄影 (24/30/60 FPS)
+1080p 慢動作影片 (120/240 FPS)
+縮時攝影、連續自動對焦錄影、身體與臉孔偵測、雜點消除
+邊錄邊拍 (800 萬畫素)</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="nms-KL-clo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MdX-NM-2Fd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K0b-LE-vWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="-3382.0197044334977"/>
+        </scene>
+        <!--手機售價-->
+        <scene sceneID="M0R-Ff-UHL">
+            <objects>
+                <viewController title="手機售價" id="K8U-US-i4J" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nu2-VE-4q1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NT 35,900起" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rp-6x-JIj">
+                                <rect key="frame" x="16" y="332" width="343" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="eux-Wa-Ecc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R6Y-Z9-rou"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2n-A8-ZYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="-3382"/>
+        </scene>
+        <!--手機售價-->
+        <scene sceneID="B1b-5l-jK7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9yq-6Z-bJ4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機售價" id="Obh-6c-gzO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mdw-iI-XZp">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="K8U-US-i4J" kind="relationship" relationship="rootViewController" id="eZm-Q8-Tb6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v1C-62-7XO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="-4207"/>
+        </scene>
+        <!--詳細規格-->
+        <scene sceneID="a5X-Jj-MoQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FOD-fl-LZs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="詳細規格" id="ck1-Ha-9Qp"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hXD-4I-Lmj">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uov-tE-OEQ" kind="relationship" relationship="rootViewController" id="WqS-4w-nwJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncr-1n-av8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="-4207"/>
+        </scene>
+        <!--手機美照-->
+        <scene sceneID="K53-6f-kSA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U8h-LA-JDL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機美照" id="GTh-zr-WbY"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EYO-vq-qSt">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xcu-uR-cCg" kind="relationship" relationship="rootViewController" id="8fL-DJ-JRp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ibe-dx-DvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="-4207"/>
+        </scene>
+        <!--iPhone X-->
+        <scene sceneID="EgZ-V6-JiK">
+            <objects>
+                <tabBarController title="iPhone X" automaticallyAdjustsScrollViewInsets="NO" id="HIt-hY-aCh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="iPhone X" id="H72-b0-QWO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AcH-84-y5U">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="U8h-LA-JDL" kind="relationship" relationship="viewControllers" id="NxT-k2-CGD"/>
+                        <segue destination="FOD-fl-LZs" kind="relationship" relationship="viewControllers" id="sSf-aJ-E4y"/>
+                        <segue destination="9yq-6Z-bJ4" kind="relationship" relationship="viewControllers" id="pyb-Xo-c7y"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E5c-kx-Fr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956" y="-3822"/>
+        </scene>
+        <!--手機售價-->
+        <scene sceneID="iqD-YM-yNo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="044-JN-JN1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機售價" id="3eb-B9-8dr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ykp-rm-2kr">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ql6-A4-Cxg" kind="relationship" relationship="rootViewController" id="Tvn-Hh-v1X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QuY-5b-Yay" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="-2658"/>
+        </scene>
+        <!--詳細規格-->
+        <scene sceneID="PpG-qc-0Im">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ee8-lw-039" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="詳細規格" id="SxX-hT-TZB"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yJg-jb-TYn">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Aib-rl-0ox" kind="relationship" relationship="rootViewController" id="XFJ-cU-pav"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="irb-kT-l6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="-2659"/>
+        </scene>
+        <!--手機美照-->
+        <scene sceneID="l1W-9A-Eo2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8FD-Yc-BSr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機美照" id="S4B-LU-r4A"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2h0-nN-BDm">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7LH-Lp-sLr" kind="relationship" relationship="rootViewController" id="DVy-RH-Uyz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fmt-Ek-R4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="-2659"/>
+        </scene>
+        <!--Samsung S9+-->
+        <scene sceneID="JiC-7K-erF">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="i75-gZ-ncc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Samsung S9+" id="e4X-iF-xar"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SvW-IR-cRM">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8FD-Yc-BSr" kind="relationship" relationship="viewControllers" id="XdC-3n-hEz"/>
+                        <segue destination="ee8-lw-039" kind="relationship" relationship="viewControllers" id="lyS-sw-e89"/>
+                        <segue destination="044-JN-JN1" kind="relationship" relationship="viewControllers" id="3vH-4o-bSs"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JpO-3i-paN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956" y="-2225"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2ZV-HU-FPa">
+            <objects>
+                <viewController id="7ov-lN-IfM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Vp-0I-Ojv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz2" translatesAutoresizingMaskIntoConstraints="NO" id="VeX-ig-ngq">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="LfI-28-uSw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7r9-L4-GxY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="trS-y4-2AC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="-539.40886699507394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YrO-Td-XOD">
+            <objects>
+                <viewController id="Y3f-dv-fm1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Ta-xa-Wc3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wqh-AS-RL2">
+                                <rect key="frame" x="0.0" y="89" width="375" height="640"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">外型：直立
+螢幕尺寸：5.7 吋 2160 x 1080 pixel
+螢幕類型：IPS TFT
+尺寸：153 x 72 x 11.1 mm (mm)
+重量：198 (g)
+防水防塵：IP68
+標準電池：3180 mAh (固定式)
+指紋辨識：有
+顏色：黑/銀/綠/粉
+
+網路系統：GSM 四頻 / WCDMA 850 + 900 + 2100
+EDGE：有
+HSDPA：有
+LTE(4G)：LTE 700 + 900 + 1800 + FDD 2600 + TDD 2600
+雙卡雙待：有
+WiFi 無線網路：
+藍牙：v5.0
+GPS：有
+USB：X
+NFC：有
+
+作業系統：Android 8.0
+CPU型號：Qualcomm Snapdragon 845
+CPU類型：八核心
+RAM：6GB
+ROM：64GB
+記憶卡：microSD (最大400GB) ，與 SIM 卡共用卡槽
+
+影片格式：
+影片解析度：
+3.5mm 耳機孔：有
+獨立揚聲器：有
+立體雙喇叭：有
+A2DP：有
+FM 收音機：Ｘ
+
+主相機：1900萬畫素CMOS
+次相機：500萬畫素CMOS
+補光燈：有
+Xenon 閃光燈：X
+錄影解析度：
+拍照功能：雙4K HDR 錄影
+960 FPS 超級慢動作錄影
+主相機 F2.0 光圈
+微笑預拍功能
+自動追焦連拍
+Motion Eye
+五軸電子式防震</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Lhg-1d-28T"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d3j-Ed-l2l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jfM-iT-1qS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="-539.40886699507394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VSq-WR-iVD">
+            <objects>
+                <viewController id="ktY-2Q-9F8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lgI-rd-pQb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NT 24,900起" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXo-TL-22u">
+                                <rect key="frame" x="16" y="332" width="343" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="sOC-VL-8MT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yUT-yk-VZe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eu1-HX-ue9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="-539"/>
+        </scene>
+        <!--手機美照-->
+        <scene sceneID="MaQ-DE-ZXL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OCD-Gs-ab1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機美照" id="9Xq-Dz-X7z"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LWF-3U-HCp">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6Gv-h6-NU7" kind="relationship" relationship="rootViewController" id="iza-Vb-Pet"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zEI-fu-ZMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="126"/>
+        </scene>
+        <!--詳細規格-->
+        <scene sceneID="tGg-lv-5Yk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OY1-Fw-4WZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="詳細規格" id="AMx-oY-FKY"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dRr-yq-JJh">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uTG-ap-VSq" kind="relationship" relationship="rootViewController" id="7et-GL-9BT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9C-Vl-dow" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="126"/>
+        </scene>
+        <!--商品售價-->
+        <scene sceneID="hCU-ae-JDt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6go-3C-k8y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="商品售價" id="Fo3-Pr-qQ7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IxP-3T-H6b">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="myN-zh-Oge" kind="relationship" relationship="rootViewController" id="6Lf-jE-X0q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pQA-XO-sgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="126"/>
+        </scene>
+        <!--HTC U11+-->
+        <scene sceneID="3MI-Lt-Hb1">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5ix-Se-IBs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="HTC U11+" id="ejj-LA-9y6"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IhN-Ri-nPV">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OCD-Gs-ab1" kind="relationship" relationship="viewControllers" id="cZI-hU-l90"/>
+                        <segue destination="OY1-Fw-4WZ" kind="relationship" relationship="viewControllers" id="0Xv-iB-ShN"/>
+                        <segue destination="6go-3C-k8y" kind="relationship" relationship="viewControllers" id="acZ-0n-3Hj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HTv-sa-3ea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956" y="493"/>
+        </scene>
+        <!--手機美照-->
+        <scene sceneID="dCj-94-GKa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eBE-rH-qTc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機美照" id="IUD-Tj-JDn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KOI-7c-QBm">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7ov-lN-IfM" kind="relationship" relationship="rootViewController" id="dya-o5-CMg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fvS-Oc-SG6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="-1231"/>
+        </scene>
+        <!--詳細規格-->
+        <scene sceneID="3zf-9D-W3p">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="77z-oq-mrO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="詳細規格" id="Xdz-OG-s8Y"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oM7-bo-668">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y3f-dv-fm1" kind="relationship" relationship="rootViewController" id="jPB-mh-GOe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afw-gP-3PX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="-1231"/>
+        </scene>
+        <!--手機售價-->
+        <scene sceneID="7Gz-I5-Zfa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4XD-1k-Dc3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機售價" id="F2I-fM-XLd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ve8-SK-16E">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ktY-2Q-9F8" kind="relationship" relationship="rootViewController" id="Axk-VO-Dh6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y6z-AI-UQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="-1231"/>
+        </scene>
+        <!--Sony Xperia XZ2-->
+        <scene sceneID="g77-w4-S4Y">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="aDm-Qa-5c0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Sony Xperia XZ2" id="gDz-04-Hg0"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TAV-Om-5Ny">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eBE-rH-qTc" kind="relationship" relationship="viewControllers" id="pUm-zf-p7G"/>
+                        <segue destination="77z-oq-mrO" kind="relationship" relationship="viewControllers" id="iNK-Hk-Lk3"/>
+                        <segue destination="4XD-1k-Dc3" kind="relationship" relationship="viewControllers" id="N9L-JU-74T"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jGl-X6-eyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956" y="-897"/>
+        </scene>
+        <!--手機美照-->
+        <scene sceneID="rca-KT-oUg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WiX-16-woA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機美照" id="qUZ-SW-h68"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hb9-yg-0Ew">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Omi-Rb-jJm" kind="relationship" relationship="rootViewController" id="VwO-3d-MLR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qeM-01-CG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="1642"/>
+        </scene>
+        <!--詳細規格-->
+        <scene sceneID="PeL-xp-Kaj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nd9-xf-wRG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="詳細規格" id="ic7-3o-Ana"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n88-nu-Qpc">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zKH-Y3-XbX" kind="relationship" relationship="rootViewController" id="KPn-gk-OkT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HmK-yZ-3yA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="1642"/>
+        </scene>
+        <!--手機售價-->
+        <scene sceneID="vCV-wg-duM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6ie-et-2LV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機售價" id="rb9-Sn-e7O"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DcD-Sa-Bv0">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uAa-6o-85r" kind="relationship" relationship="rootViewController" id="h3f-ab-KgQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sC0-Ye-3Hs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="1642"/>
+        </scene>
+        <!--OPPO R11s Plus-->
+        <scene sceneID="Ghu-bK-T9g">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uWy-8E-1J2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="OPPO R11s Plus" id="W2o-t6-nhm"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YHU-yx-iWw">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WiX-16-woA" kind="relationship" relationship="viewControllers" id="sgN-e8-Oro"/>
+                        <segue destination="nd9-xf-wRG" kind="relationship" relationship="viewControllers" id="YS9-bw-1pj"/>
+                        <segue destination="6ie-et-2LV" kind="relationship" relationship="viewControllers" id="ABD-X6-rB0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tuh-YX-Sv4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956" y="1869"/>
+        </scene>
+        <!--手機美照-->
+        <scene sceneID="QgT-qG-k24">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aqG-Sq-MoU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機美照" id="2ZS-f4-FNq"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Lx-zP-Ed9">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="m27-LN-Kw7" kind="relationship" relationship="rootViewController" id="0zF-IY-AmG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bCB-Rd-07y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4060" y="3194"/>
+        </scene>
+        <!--詳細規格-->
+        <scene sceneID="pdj-Pj-sQ4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0mG-18-hAE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="詳細規格" id="vlz-9J-wm4"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zud-Sn-bIw">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="n3z-Jn-sLT" kind="relationship" relationship="rootViewController" id="F7n-vQ-I3O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZK-au-jfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="3194"/>
+        </scene>
+        <!--手機售價-->
+        <scene sceneID="RbD-Ja-fNq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jc5-iI-Anj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="手機售價" id="4tj-01-f7e"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xyn-S3-MgM">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Bq5-KX-BRU" kind="relationship" relationship="rootViewController" id="hrd-4I-zl9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuV-dS-fTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5886" y="3194"/>
+        </scene>
+        <!--HUAWEI meta 10 pro-->
+        <scene sceneID="Y56-jv-qX5">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kDn-Ci-ZkK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="HUAWEI meta 10 pro" id="I9a-9c-h7L"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="69r-aY-CTm">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="aqG-Sq-MoU" kind="relationship" relationship="viewControllers" id="UN3-Tr-XWz"/>
+                        <segue destination="0mG-18-hAE" kind="relationship" relationship="viewControllers" id="Uay-ou-tio"/>
+                        <segue destination="jc5-iI-Anj" kind="relationship" relationship="viewControllers" id="U31-re-pdw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rkn-WK-3xb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956" y="3658"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple1" width="240" height="240"/>
+        <image name="apple1 2" width="60" height="60"/>
+        <image name="htc1" width="225" height="225"/>
+        <image name="htc1 2" width="60" height="60"/>
+        <image name="huawei1" width="120" height="117"/>
+        <image name="huawei1 2" width="62" height="60"/>
+        <image name="iphonex" width="700" height="700"/>
+        <image name="mate_10_pro" width="640" height="480"/>
+        <image name="oppo1" width="150" height="70"/>
+        <image name="oppo1 2" width="129" height="60"/>
+        <image name="r11s+" width="700" height="700"/>
+        <image name="s9+" width="586" height="700"/>
+        <image name="samsung1" width="200" height="105"/>
+        <image name="samsung1 2" width="114" height="60"/>
+        <image name="sony1" width="120" height="63"/>
+        <image name="u11+" width="700" height="700"/>
+        <image name="xz2" width="456" height="600"/>
+    </resources>
+</document>
